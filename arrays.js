@@ -28,8 +28,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  var array = array.slice();
-  return array;
+  var newArray = array.slice();
+  return newArray;
 }
 
 // function destructivelyRemoveElementFromEndOfArray(array) {
